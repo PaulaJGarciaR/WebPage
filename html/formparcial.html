@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        body{
+            background: rgb(242,255,224);
+            background: linear-gradient(90deg, rgba(242,255,224,1) 0%, rgba(175,255,208,1) 35%, rgba(175,255,208,0.989233193277311) 100%);
+            font-family: 'Poppins', sans-serif;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            margin-top: 10%;
+        }
+        .content{
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .formregister{
+            width: 40%;
+            background-color: #fff;
+            border-radius: 20px;
+
+        }
+        .title{
+            width: 100%;
+            text-align: center;
+        }
+        .title h1{
+            background-color: #fff;
+            box-shadow: 5px 5px 10px rgb(229, 229, 229);
+            border-radius: 20px;
+            padding: 2px 20px;
+        }
+        .parrafo{
+            text-align: justify;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .line-form{
+            display: block;
+            padding: 5px 40px;
+            align-items:center ;
+        }
+        .line-form input{
+            align-items: left;
+            margin-left: 15%;
+            width: 60%;
+            text-align: left;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <section class="content">
+           <div class="formregister">
+            <div class="title">
+                <h1>Form Register</h1>
+            </div>
+             <div class="parrafo">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ipsum ullam, quibusdam aperiam deserunt commodi iste cum libero autem quasi exercitationem omnis sunt dolor alias soluta quam dicta inventore! Numquam?</p>
+             </div>
+             <div class="body-form">
+                <div class="line-form"><label for="name">Name:</label><input type="text" name="name" placeholder="Escriba sus nombres"></div>
+
+                <div class="line-form"><label for="last name">Last name:</label><input type="text" name="last-name" placeholder="Escriba sus apellidos"></div>
+
+                <div class="line-form"><label for="phone:">Phone:</label><input type="text" name="phone" placeholder="Escriba su numero"></div>
+                <div class="line-form"><label for="email:">Email:</label><input type="email" placeholder="Ingrese su email" name="email"></div>
+                <div class="line-form"><label for="pass">Password:</label><input type="password" name="pass" placeholder="ingrese su contraseña"></div>
+                <div class="line-form"><label for="pass">Repeat Password:</label><input type="password" name="pass" placeholder="ingrese su contraseña de nuevo"></div>
+                <div class="button">
+                    <button>Enviar</button>
+                </div>
+                <div class="enlace">
+                    <a href="#">Volver</a>
+                </div>
+             </div>
+           </div>
+        </section>
+    </form>
+</body>
+</html>
